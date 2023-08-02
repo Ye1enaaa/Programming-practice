@@ -38,5 +38,5 @@ def addOnQueue():
         print(queue)
         print(len(queue))
 
-addOnQueue()
+#addOnQueue()
 #addNumber()
