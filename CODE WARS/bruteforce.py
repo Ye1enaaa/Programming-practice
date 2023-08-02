@@ -18,5 +18,3 @@ if guess:
     print(f"Password cracked in {attempts} attempts. The password is {guess}.")
 else:
     print(f"Password not cracked after {attempts} attempts.")
-
-bruteforce_attack()
