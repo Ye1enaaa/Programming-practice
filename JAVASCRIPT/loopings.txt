@@ -1,0 +1,40 @@
+for arrays:
+for (i = 0; i < 10; i++){
+    code execution
+}
+
+for objects:
+for (variable in array){
+    code execution
+}
+
+for of // looping over string:
+let language = "JavaScript";
+
+let text = "";
+for (let x of language) {
+text += x;
+}
+
+const fruits = new Map([
+  ["apples", 500],
+  ["bananas", 300],
+  ["oranges", 200]
+]);
+
+for (const x of fruits) {
+  // code block to be executed
+}
+
+while loops:
+while(condition){
+    code execution
+}
+
+do while loops:
+do{
+
+}
+while(condition)
+
+
